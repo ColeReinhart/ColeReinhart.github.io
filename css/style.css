@@ -24,7 +24,10 @@ body{
       width: 300px;
       float: left;
       margin: 80px 80px 40px 0px;
+    }
 
+    .rotate{
+      transform:rotate(90deg);
     }
 .standard {
   font-size: 40px;
@@ -83,13 +86,11 @@ footer, footer ul{
   background-color: black;
   margin: 0;
   padding: 30px;
-
 }
 
 footer li {
   display:inline;
   width: 50%;
-
 }
 
 footer li a{
@@ -102,6 +103,7 @@ li{
   align-content: space-between;
   flex-direction: column-reverse;
 }
+
 .manbear {
   height: 150px;
   width: 150px;
@@ -126,4 +128,16 @@ section + a{
 
 .house {
   margin-left: 400px;
+}
+
+.pass {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 30px;
+    z-index: -1;
+  }
+
+.passion {
+  height:500px;
 }
